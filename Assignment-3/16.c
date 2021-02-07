@@ -23,7 +23,7 @@ int main()
         hra = 0;
         da = 0;
     };
-    gross = basic + basic(hra + da);
+    gross = basic + basic*(hra + da);
     printf("%g",gross);
     
     return 0;
