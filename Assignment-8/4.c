@@ -6,17 +6,17 @@ int main()
     printf("Enter length of array 1\n");
     scanf("%d", &n);
     printf("Enter the %d elements\n", n);
-    int myArr1[n];
+    int myArr[n];
     for (int i = 0; i < n; i++)
     {
-        scanf("%d", &myArr1[i]);
+        scanf("%d", &myArr[i]);
     }
 
     int newArr[n];
 
     for (int i = 0; i < n; i++)
     {
-        newArr[i] = myArr1[i];
+        newArr[i] = myArr[i];
     }
 
     for (int i = 0; i < n; i++)
