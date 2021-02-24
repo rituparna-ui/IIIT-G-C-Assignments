@@ -11,6 +11,7 @@ int main()
         {
             isPresent = 1;
             index = i;
+            break;
         }
     }
 
