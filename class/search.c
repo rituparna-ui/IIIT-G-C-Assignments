@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a[5] = {4, 5, 7, 9, 6};
+    int a[5] = {12, 4, 362, 65, 23};
     int isPresent = 0, index = 0;
     int x = 10;
     for (int i = 0; i < 5; i++)
